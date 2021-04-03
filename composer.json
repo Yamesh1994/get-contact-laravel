@@ -1,0 +1,25 @@
+{
+    "name": "yamesh/test-laravel-package",
+    "description": "demo project",
+    "type": "library",
+    "require": {
+        "laravel/passport": "^11.0@dev",
+        "php": "^7.4",
+        "rebing/graphql-laravel": "^6.0@dev",
+        "illuminate/support": "^9.0@dev",
+        "monolog/monolog": "2.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yamesh",
+            "email": "mahule.yamesh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yamesh\\login\\": "src/"
+        }
+    }
+}
