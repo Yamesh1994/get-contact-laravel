@@ -21,5 +21,13 @@
         "psr-4": {
             "yamesh\\login\\": "src/"
         }
+    },
+
+    "extras": {
+        "laravel": {
+            "providers": [
+                "yamesh\\login\\LoginServiceProvider"
+            ]
+        }
     }
 }
